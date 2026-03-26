@@ -1,4 +1,4 @@
-let currentUser = localStorage.getItem('imobot_user');
+let currentUser = localStorage.getItem('danzzbot_user');
         let currentBotsData = {};
 
         if(currentUser) showDashboard();
