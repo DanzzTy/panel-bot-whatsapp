@@ -228,7 +228,7 @@
             document.getElementById('edit-ownerNumber').value = data.ownerNum || '';
             document.getElementById('edit-packname').value = data.packname || 'Created by Danzz';
             let cleanAuthor = data.author || '';
-            cleanAuthor = cleanAuthor.replace(' | izjtanzala.web.id', '');
+            cleanAuthor = cleanAuthor.replace(' | danzz-bot-whatsapp.vercel.app/', '');
             document.getElementById('edit-author').value = cleanAuthor;
             document.getElementById('edit-modal').classList.remove('hidden');
         }
